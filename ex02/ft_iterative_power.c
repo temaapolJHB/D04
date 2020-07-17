@@ -6,7 +6,7 @@
 /*   By: temaapol <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 14:34:45 by temaapol          #+#    #+#             */
-/*   Updated: 2020/07/16 11:05:01 by temaapol         ###   ########.fr       */
+/*   Updated: 2020/07/17 08:40:53 by temaapol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -20,7 +20,7 @@ int ft_iterative_power(int nb, int power)
      {
 	   return (0);
 	 }
-   if((power == 0) || ((nb < 0) && (power == )))
+   if((power == 0) || ((nb < 0) && (power == 0)))
      {
         return (1);
 	 }
